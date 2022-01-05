@@ -224,6 +224,10 @@ top:36%;
   .navbar{
     background-color: transparent!important;
   }
+   .grid-container {
+    display: grid;
+    grid-row-gap: 30px;
+  }	
 }
 @media (min-width: 768px) and (max-width: 992px) {  
     .pl{
@@ -248,6 +252,10 @@ top:36%;
   .imgbg{
         margin-left: 0px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 @media (min-width: 992px){
   .im3{
@@ -259,6 +267,10 @@ top:36%;
     .ht{
     height: 255px;
     width: 255px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 #faq {
